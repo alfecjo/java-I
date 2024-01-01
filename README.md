@@ -1,13 +1,12 @@
-# ## Desenvolvimento com Java 17 - IDE - NetBeans
+# ☕  Java I
 
-### Objetivo
+## Objetivo
 
-#### 🌱 O objetivo geral foi desenvolver e cumprir os requisitos estabelecidos pelo cronograma da disciplina Java I.
+### 🌱 O objetivo geral foi desenvolver e cumprir os requisitos estabelecidos pelo cronograma da disciplina Java I.
 
-#### 📫 REQUISITOS:
-
-#### ⚡ 
-####  LISTA DE REQUISITOS A SEREM SEGUIDOS:
+## 📫 REQUISITOS:
+  
+### ⚡ LISTA DE REQUISITOS A SEREM SEGUIDOS:
 
 I) Há diversos requisitos que envolvem a programação. Todos representados por UML que indicam todas
 as características de construção;
