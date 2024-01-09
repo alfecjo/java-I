@@ -33,22 +33,17 @@
 
 ![ex02](ex02.jpg)
 
-    👉 b. A classe “Teste” deve ser construída de forma a testar todas as funcionalidades
-do programa. Nesta deverão ser implementadas as entradas de dados e a
-impressão destes na tela. Por meio dela deverá ser possível instanciar 5
-veículos.
+    👉 b. Os métodos construtores default deverão iniciar com 0 (zeros) atributos que sejam de tipos numerais (int, double, float, etc.) e com espaço em branco os que forem de tipo literais (char, String e  etc.)
 
-    👉 c. Perceba que, de acordo com as associações descritas no diagrama de classes e
-suas cardinalidades, a classe “Teste” irá conter apenas objetos do tipo
-“Veiculo”. Em momento nenhum deverá conter objetos do tipo Motor. No
-entanto deverá, por meio de um objeto do tipo Veiculo, instanciar os atributos
-do objeto atributo motor, contido na classe Veiculo, que é do tipo Motor.
+    👉 c. Garanta que nunca ocorra:
+        i. As classes Passeio e Carga jamais deverão ser estendidas (herdadas);
+        ii. Nenhum método “set” poderá ser sobrescrito;
 
-    👉 d. Perceba que a classe Veículo POSSUI um atributo do tipo Motor.
+    👉 d. A classe “Teste” deve ser construída de forma a testar todas as funcionalidades do programa (entrada, saída e cálculos), propiciando assim “trocas de mensagens” entre os objetos das classes  Teste→Passeio e Teste→Carga. Por meio dela deverá ser possível instanciar 5 veículos de cada tipo (Passeio/Carga).
   
-🕵️ Orientações adicionais:
+🕵️ Orientações adicionais: Novos elementos encontram-se em amarelo
 
-![ex01](ex01.jpg)
+![ex03](ex03.jpg)
 
 ### 📽️ Click na imagem e assista ao vídeo de apresentação do Projeto..     
 
