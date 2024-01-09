@@ -27,9 +27,10 @@ entanto deverá, por meio de um objeto do tipo Veiculo, instanciar os atributos
 do objeto atributo motor, contido na classe Veiculo, que é do tipo Motor.
   d. Perceba que a classe Veículo POSSUI um atributo do tipo Motor.
 
+
 🕵️ Orientações adicionais:
 
-![ex01](ex01.jpj)
+![ex01](ex01.jpg)
 
 🎯 Importante:
 
