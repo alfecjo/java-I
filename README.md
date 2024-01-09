@@ -140,11 +140,20 @@
             ii. Caso seja de carga, converterá de Km/h para Cm/h (centímetros por hora) e retornar este valor: 1 kilometer/hour = 100000 centimeter/hour
 
 ![ex06](ex06.jpg)
-        
+
+        g. Sempre que se optar pela opção 5 ou pela 6 do Menu Inicial, estes valores serão apresentados junto com as demais informações do respectivo veículo;
+        h. O método “calcular” da interface “Calc”, quando sobrescrito:
+            i. Na classe Passeio: retornará a soma das quantidades de letras existentes em todos os atributos do tipo String;
+            ii. Na classe Carga: retornará a soma de todos os valores contidos nos atributos numéricos.
+        i. Perceba que, pelo diagrama não há uma associação entre as classes Veículo e Teste nem entre Motor e Teste. Não poderá ser declarado um objeto do tipo Motor nas classes: Passeio, Carga e Teste.
+        Somente haverá declaração na classemãe Veiculo;
+        j. Todas entradas e saídas de dados deverão ser feitas na classe Teste: 
+            i. Entrada de dados: utilize o método entDados da classe Leitura;
+            ii. Saídas: como achar melhor, porém deve imprimir os dados na mesma sequência dos atributos da classe-mãe Veiculo e depois destes os resultados dos métodos “calcular” e “calcVel”;        
              
 🕵️ Orientações adicionais:
 
-![ex01](ex01.jpg)
+![ex06a](ex06a.jpg)
 
 
 ### 📽️ Click na imagem e assista ao vídeo de apresentação do Projeto..     
