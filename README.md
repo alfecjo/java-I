@@ -264,7 +264,7 @@ Sugestções:
 1. Clone o repositório ou baixe o arquivo .zip:
 
 ```bash
-git clone https://github.com/alfecjo/Java-II.git
+git clone https://github.com/alfecjo/java-I.git
 ```
 ## Uso
 
