@@ -50,7 +50,7 @@ exibição destes dados ocorrerá na classe Teste e da seguinte forma:
             ii. A velocidade do veículo de carga deverá ser calculada em cm/h;
             1 kilometer/hour = 100000 centimeter/hour
 
-            [ex02](ex02.jpg)
+            ![ex02](ex02.jpg)
 
     👉 b. A classe “Teste” deve ser construída de forma a testar todas as funcionalidades
 do programa. Nesta deverão ser implementadas as entradas de dados e a
