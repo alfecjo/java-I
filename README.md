@@ -7,9 +7,7 @@
 
 ## Entragas..
 
-😵 Objetivo:
-
-Desenvolver uma aplicação em linguagem Java, respeitando o que se pede:
+✏️ Atividade 01: Desenvolver uma aplicação em linguagem Java, respeitando o que se pede:
 
 👨‍💻 Requisitos:
 
