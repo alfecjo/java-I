@@ -198,10 +198,30 @@
             i. Se o veículo for de passeio, deverá converter de Km/h para M/h (metros por hora) e retornar este valor: 1 kilometer/hour = 1000 meter/hour
             ii. Caso seja de carga, converterá de Km/h para Cm/h (centímetros por hora) e retornar este valor: 1 kilometer/hour = 100000 centimeter/hour
 
-  
+![ex02](ex02.jpg)
+        
+        g. Sempre que se optar pela opção 5 ou pela 6 do Menu Inicial, estes valores serão apresentados junto com as demais informações do respectivo veículo;
+        h. O método “calcular” da interface “Calc”, quando sobrescrito:
+            i. Na classe Passeio: retornará a soma das quantidades de letras existentes em todos os atributos do tipo String;
+            ii. Na classe Carga: retornará a soma de todos os valores contidos nos atributos numéricos.
+            i. Perceba que, pelo diagrama não há uma associação entre as classes Veículo e Teste nem entre Motor e Teste. Não poderá ser declarado um objeto do tipo Motor nas classes: Passeio, Carga e
+            Teste. Somente haverá declaração na classemãe Veiculo;
+            j. Todas entradas e saídas de dados deverão ser feitas na classe Teste:
+                i. Entrada de dados: utilize o método entDados da classe;
+                ii. Saídas: como achar melhor, porém deve imprimir os dados na mesma sequência dos atributos da classe-mãe Veiculo e depois destes os resultados dos métodos “calcular” e “calcVel”;
+            
+        - Restrições 
+            a. Além dos métodos já explicitados, poderão criar outros que realmente sejam necessários;
+            b. Não permita:
+                i. Que seja possível instanciar objetos diretos da classe mãe (Veiculo);
+                ii. Sobrescrevam os métodos setters da classe Veiculo;
+                iii. Sobrescrevam os métodos das classes filhas (Passeio e Carga);
+                iv. Que as classes filhas (Passeio e Carga) sejam herdadas;
+
+
 🕵️ Orientações adicionais:
 
-![ex01](ex01.jpg)
+![ex07](ex07.jpg)
 
 
 ### 📽️ Click na imagem e assista ao vídeo de apresentação do Projeto..     
