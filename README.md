@@ -11,39 +11,28 @@
 
 👨‍💻 Requisitos:
 
-  👉 a. Todos os métodos construtores default (que não possuem parâmetros formais
+    👉 a. Todos os métodos construtores default (que não possuem parâmetros formais
 em sua assinatura) deverão iniciar com 0 (zeros) atributos que sejam de tipos
 numerais (int, double, float, etc.) e com espaço em branco (“ “) aqueles que
 forem de tipo literais (char, String e etc).
 
-  👉 b. A classe “Teste” deve ser construída de forma a testar todas as funcionalidades
+    👉 b. A classe “Teste” deve ser construída de forma a testar todas as funcionalidades
 do programa. Nesta deverão ser implementadas as entradas de dados e a
 impressão destes na tela. Por meio dela deverá ser possível instanciar 5
 veículos.
 
-  👉 c. Perceba que, de acordo com as associações descritas no diagrama de classes e
+    👉 c. Perceba que, de acordo com as associações descritas no diagrama de classes e
 suas cardinalidades, a classe “Teste” irá conter apenas objetos do tipo
 “Veiculo”. Em momento nenhum deverá conter objetos do tipo Motor. No
 entanto deverá, por meio de um objeto do tipo Veiculo, instanciar os atributos
 do objeto atributo motor, contido na classe Veiculo, que é do tipo Motor.
 
-  👉 d. Perceba que a classe Veículo POSSUI um atributo do tipo Motor.
+    👉 d. Perceba que a classe Veículo POSSUI um atributo do tipo Motor.
   
 🕵️ Orientações adicionais:
 
 ![ex01](ex01.jpg)
 
-🎯 Importante:
-
-- Cópias e/ou exercícios duplicados/idênticos serão descartados, apenas os pontos da entrega (se feita no prazo) serão contabilizados.
-
-- Faça o programa todo em apenas uma classe, utilize recursos como classes aninhadas para organização, caso envie o projeto e/ou PDF's ou vários arquivos, sua atividade não será avaliada e o ato do reenvio da mesma incorrerá em desconto por atraso
-
-- Envie APENAS o arquivo .java do programa, nada mais.
-
-- O objetivo da atividade também é parte da avaliação!
-
-- Envios com atraso tem o desconto da pontualidade (acima, item 3) e desconto de 1 ponto por dia de atraso, por exemplo: se vc atrasar 1 dia, terá 1 ponto de desconto por atraso + 10 da pontualidade, totalizando 11 pontos a menos na nota.
 
 ### 📽️ Click na imagem e assista ao vídeo de apresentação do Projeto..     
 
