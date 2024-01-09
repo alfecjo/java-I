@@ -3,7 +3,7 @@
 ## Este material foi desenvolvido em resposta a disciplina 'Java I', a qual faz parte do curso de Pós Graduação em Tecnologia Java, ministrado pela Universidade Tecnológica Federal do Paraná.
 🎉 Os projetos, são exercícios solicitados ao longo do curso que juntos perfazem a nota que compõem a média final.
 
-🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código destes exercícios estranho. São vários níveis de dificuldade, a medida que a numeração dos exercícios aumenta, o grau de dificuldade o acompanha. Em especial, foram considerados pelo professor e os demais colegas, os mais HARD são os últimos, embora, tratar-se de um único projeto. Sem exageros e caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos persistentes, que considero meu caso (_😎tirei nota máxima_). Desenvolver software, nada mais é que descartar a possibilidade de desistência (se for necessário, re-comece, quantas vezes precisar...), independente de qualquer motivo!
+🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código destes exercícios estranho. São vários níveis de dificuldade, a medida que a numeração dos exercícios aumenta, o grau de dificuldade o acompanha. Em especial, foram considerados pelo professor e os demais colegas, os mais HARD são os últimos, embora, tratar-se de um único projeto. Sem exageros e caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos persistentes, que considero meu caso (_😎tirei nota máxima em quase todos_♻️rsrsrs). Desenvolver software, nada mais é que descartar a possibilidade de desistência (se for necessário, re-comece, quantas vezes precisar...), independente de qualquer motivo!
 
 ## Entragas..
 
@@ -33,6 +33,41 @@ do objeto atributo motor, contido na classe Veiculo, que é do tipo Motor.
 
 ![ex01](ex01.jpg)
 
+✏️ Atividade 03: Embora a Atividade 3 trate do conceito e aplicação do mecanismo de Herança, ela também pode nos
+ajudar compreender a realidade das empresas e instituições que buscam intensificar o uso de padrões de
+projetos desenvolvidos, de maneira ad hoc, por elas mesmas, com intuito de padronizar a construção de
+seus softwares. Por exemplo, ao definir-se como "final" um método "set", indicando que não poderá ser sobrescrito,
+garantimos a perpetuação de uma regra de negócio restritiva sobre as características possíveis de um
+objeto (um atributo deste), como quando não queremos que um atributo receba um valor fora de uma
+escala prevista.
+
+👨‍💻 Requisitos: Desenvolva novos elementos a partir da Atividade 01
+
+    👉 a. A “entrada” da velocidade (atributo velocMax) sempre será dada em km/h porém, a
+exibição destes dados ocorrerá na classe Teste e da seguinte forma:
+            i. A velocidade do veículo de passeio deverá ser calculada em m/h;
+            1 kilometer/hour = 1000 meter/hour
+            ii. A velocidade do veículo de carga deverá ser calculada em cm/h;
+            1 kilometer/hour = 100000 centimeter/hour
+
+            [ex02](ex02.jpg)
+
+    👉 b. A classe “Teste” deve ser construída de forma a testar todas as funcionalidades
+do programa. Nesta deverão ser implementadas as entradas de dados e a
+impressão destes na tela. Por meio dela deverá ser possível instanciar 5
+veículos.
+
+    👉 c. Perceba que, de acordo com as associações descritas no diagrama de classes e
+suas cardinalidades, a classe “Teste” irá conter apenas objetos do tipo
+“Veiculo”. Em momento nenhum deverá conter objetos do tipo Motor. No
+entanto deverá, por meio de um objeto do tipo Veiculo, instanciar os atributos
+do objeto atributo motor, contido na classe Veiculo, que é do tipo Motor.
+
+    👉 d. Perceba que a classe Veículo POSSUI um atributo do tipo Motor.
+  
+🕵️ Orientações adicionais:
+
+![ex01](ex01.jpg)
 
 ### 📽️ Click na imagem e assista ao vídeo de apresentação do Projeto..     
 
