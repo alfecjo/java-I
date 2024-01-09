@@ -33,11 +33,52 @@
 
 ![ex02](ex02.jpg)
 
-✏️ Atividade 01: Desenvolver uma aplicação em linguagem Java, respeitando o que se pede:
+    👉 b. Os métodos construtores default deverão iniciar com 0 (zeros) atributos que sejam de tipos numerais (int, double, float, etc.) e com espaço em branco os que forem de tipo literais (char, String e  etc.)
+
+    👉 c. Garanta que nunca ocorra:
+        i. As classes Passeio e Carga jamais deverão ser estendidas (herdadas);
+        ii. Nenhum método “set” poderá ser sobrescrito;
+
+    👉 d. A classe “Teste” deve ser construída de forma a testar todas as funcionalidades do programa (entrada, saída e cálculos), propiciando assim “trocas de mensagens” entre os objetos das classes  Teste→Passeio e Teste→Carga. Por meio dela deverá ser possível instanciar 5 veículos de cada tipo (Passeio/Carga).
+  
+🕵️ Orientações adicionais: Novos elementos encontram-se em amarelo
+
+![ex03](ex03.jpg)
+
+✏️ Atividade 04: Herança Múltipla - Existem linguagens de programação que suportam, entretanto, não é o caso do Java. Para resolver esta situação, em Java, desenvolveu-se uma estrutura de dados denominada Interface
 
 👨‍💻 Requisitos:
 
-    👉 a. Todos os métodos construtores default (que não possuem parâmetros formais em sua assinatura) deverão iniciar com 0 (zeros) atributos que sejam de tipos numerais (int, double, float, etc.) e com  espaço em branco (“ “) aqueles que forem de tipo literais (char, String e etc).
+    👉 a. Proceguindo com a atividade 03, A classe Teste deverá conter o Menu Inicial com as seguintes opções (e suas funcionalidade desenvolvidas):
+    
+        Observações sobre as opções do Menu Inicial:
+            • Opções 5 e 6: O usuário informa a placa do veículo e o programa deve executar uma busca no vetor do respectivo tipo de veículo e imprimir os dados deste;
+            • Opção 7: o sistema será encerrado apenas quando o usuário escolher esta opção.
+            
+    👉 O Sistema deverá permitir:
+    a. A cada operação realizada no sistema, este retornará ao Menu Inicial;
+    b. Armazenar 5 de veículos de cada tipo. Crie 2 vetores, um para os veículos de passeio e outro para os de carga;
+    c. Ao inserir um novo veículo o sistema deverá verificar se já existe um veículo cadastrado com a mesma placa. Caso exista, deverá informar ao usuário sobre esta existência e deverá voltar ao Menu  Inicial.
+    d. Ao final do cadastro de cada veículo, deverá ser perguntado se deseja cadastrar mais um (do mesmo tipo), caso a resposta seja NÃO deverá voltar ao Menu Inicial;
+    e. A velocidade de cada veículo sempre será armazenada em Km/h, porém o método abstrato calcVel (sobrescrito nas classes Passeio e Carga) deverá calcular (não alterando o valor do atributo velocMax) e  retornar o resultado da seguinte forma:
+        i. Se o veículo for de passeio, deverá converter de Km/h para M/h (metros por hora) e retornar este valor. 1 kilometer/hour = 1000 meter/hour
+    
+    Sistema de Gestão de Veículos - Menu Inicial
+        1. Cadastrar Veículo de Passeio
+        2. Cadastrar Veículo de Carga
+        3. Imprimir Todos os Veículos de Passeio
+        4. Imprimir Todos os Veículos de Carga
+        5. Imprimir Veículo de Passeio pela Placa
+        6. Imprimir Veículo de Carga pela Placa
+        7. Sair do Sistema
+
+
+
+
+
+
+
+
 
     👉 b. A classe “Teste” deve ser construída de forma a testar todas as funcionalidades do programa. Nesta deverão ser implementadas as entradas de dados e a impressão destes na tela. Por meio dela  deverá ser possível instanciar 5 veículos.
 
@@ -50,17 +91,7 @@
 ![ex01](ex01.jpg)
 
 
-    👉 b. Os métodos construtores default deverão iniciar com 0 (zeros) atributos que sejam de tipos numerais (int, double, float, etc.) e com espaço em branco os que forem de tipo literais (char, String e  etc.)
 
-    👉 c. Garanta que nunca ocorra:
-        i. As classes Passeio e Carga jamais deverão ser estendidas (herdadas);
-        ii. Nenhum método “set” poderá ser sobrescrito;
-
-    👉 d. A classe “Teste” deve ser construída de forma a testar todas as funcionalidades do programa (entrada, saída e cálculos), propiciando assim “trocas de mensagens” entre os objetos das classes  Teste→Passeio e Teste→Carga. Por meio dela deverá ser possível instanciar 5 veículos de cada tipo (Passeio/Carga).
-  
-🕵️ Orientações adicionais: Novos elementos encontram-se em amarelo
-
-![ex03](ex03.jpg)
 
 ### 📽️ Click na imagem e assista ao vídeo de apresentação do Projeto..     
 
