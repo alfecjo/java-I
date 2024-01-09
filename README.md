@@ -5,7 +5,7 @@
 
 🥋 Se você está entrando no Java agora, vou deixar um comentário apenas para orientá-lo, caso considere o código destes exercícios estranho. São vários níveis de dificuldade, a medida que a numeração dos exercícios aumenta, o grau de dificuldade o acompanha. Em especial, foram considerados pelo professor e os demais colegas, os mais HARD são os últimos, embora, tratar-se de um único projeto. Sem exageros e caso não entenda de primeira, continue tentando, pois, o sucesso não só reside nos melhores, más também, nos persistentes, que considero meu caso (_😎tirei nota máxima em quase todos_♻️rsrsrs). Desenvolver software, nada mais é que descartar a possibilidade de desistência (se for necessário, re-comece, quantas vezes precisar...), independente de qualquer motivo!
 
-## Entragas..
+## Entregas..
 
 ✏️ Atividade 01: Desenvolver uma aplicação em linguagem Java, respeitando o que se pede:
 
@@ -32,6 +32,23 @@
         ii. A velocidade do veículo de carga deverá ser calculada em cm/h. 1 kilometer/hour = 100000 centimeter/hour
 
 ![ex02](ex02.jpg)
+
+✏️ Atividade 01: Desenvolver uma aplicação em linguagem Java, respeitando o que se pede:
+
+👨‍💻 Requisitos:
+
+    👉 a. Todos os métodos construtores default (que não possuem parâmetros formais em sua assinatura) deverão iniciar com 0 (zeros) atributos que sejam de tipos numerais (int, double, float, etc.) e com  espaço em branco (“ “) aqueles que forem de tipo literais (char, String e etc).
+
+    👉 b. A classe “Teste” deve ser construída de forma a testar todas as funcionalidades do programa. Nesta deverão ser implementadas as entradas de dados e a impressão destes na tela. Por meio dela  deverá ser possível instanciar 5 veículos.
+
+    👉 c. Perceba que, de acordo com as associações descritas no diagrama de classes e suas cardinalidades, a classe “Teste” irá conter apenas objetos do tipo “Veiculo”. Em momento nenhum deverá conter  objetos do tipo Motor. No entanto deverá, por meio de um objeto do tipo Veiculo, instanciar os atributos do objeto atributo motor, contido na classe Veiculo, que é do tipo Motor.
+
+    👉 d. Perceba que a classe Veículo POSSUI um atributo do tipo Motor.
+  
+🕵️ Orientações adicionais:
+
+![ex01](ex01.jpg)
+
 
     👉 b. Os métodos construtores default deverão iniciar com 0 (zeros) atributos que sejam de tipos numerais (int, double, float, etc.) e com espaço em branco os que forem de tipo literais (char, String e  etc.)
 
