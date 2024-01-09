@@ -173,6 +173,30 @@
 
 ![ex07](ex07.jpg)
 
+    Opções 5 e 6: O usuário informa a placa do veículo e o programa deve executar uma busca no vetor do respectivo tipo de veículo e imprimir os dados deste; Caso não exista um veículo com esta placa o
+    sistema deve avisar o usuário e retornar ao Menu Inicial. 
+    • Opções 7 e 8: O usuário informa a placa do veículo; o programa executa uma busca no vetor do respectivo tipo de veículo e o EXCLUI. Caso não exista um veículo com esta placa, o sistema deve avisar o
+    usuário e retornar ao Menu Inicial. 
+    • Opção 9: o sistema será encerrado apenas quando o usuário escolher esta opção.
+
+    - O Sistema deverá:
+        a. A cada operação realizada no sistema, este retornará ao Menu Inicial;
+        b. Armazenar uma quantidade indefinida de veículos de cada tipo. Crie (na classe BDVeiculo) 2 arrays dinâmicos, um para os veículos de passeio e outro para os de carga;
+        c. Ao inserir um novo veículo o sistema deverá verificar se já existe um veículo cadastrado com a mesma placa. Caso exista, deverá:
+            i. Disparar a exceção VeicExistException (que será do tipo verificada);
+            ii. Seu método construtor deverá informar ao usuário sobre esta existência (“Já existe um veículo com esta placa”);
+            iii. Voltar ao Menu Inicial.
+        d. Sobre a Velocidade Máxima dos veículos:
+            i. Caso a velocidade máxima de um veículo seja menor que 80 ou maior 110, deverá disparar a exceção “VelocException” (que será do tipo verificada). Seu método construtor deverá informar que: “A
+        velocidade máxima está fora dos limites brasileiros”.
+            ii. Neste caso (após disparar a exceção), se estiver “tentando” atribuir velocidade para um carro de passeio, este deverá assumir 100 (Km/h para velocidade máxima) se for um veículo de carga
+            assumirá 90 Km/h;
+        e. Ao final do cadastro de cada veículo, deverá ser perguntado se deseja cadastrar mais um (do mesmo tipo), caso a resposta seja NÃO deverá voltar ao Menu Inicial. Caso a resposta seja SIM, 
+        permitir uma nova inserção; 
+        f. A velocidade de cada veículo sempre será armazenada em Km/h, porém o método abstrato calcVel (sobrescrito nas classes Passeio e Carga) deverá calcular (não alterando o valor do atributo 
+        velocMax) e retornar o resultado da seguinte forma: 
+            i. Se o veículo for de passeio, deverá converter de Km/h para M/h (metros por hora) e retornar este valor: 1 kilometer/hour = 1000 meter/hour
+            ii. Caso seja de carga, converterá de Km/h para Cm/h (centímetros por hora) e retornar este valor: 1 kilometer/hour = 100000 centimeter/hour
 
   
 🕵️ Orientações adicionais:
