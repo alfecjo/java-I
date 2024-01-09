@@ -155,6 +155,30 @@
 
 ![ex06a](ex06a.jpg)
 
+✏️ Atividade 07: Collections - Desenvolver uma aplicação em linguagem Java, respeitando o que se pede:
+
+👨‍💻 Requisitos:
+
+    👉 a. A classe Teste deverá conter o Menu Inicial com as seguintes opções (e suas funcionalidade desenvolvidas):
+        Sistema de Gestão de Veículos - Menu Inicial
+            1. Cadastrar Veículo de Passeio
+            2. Cadastrar Veículo de Carga
+            3. Imprimir Todos os Veículos de Passeio
+            4. Imprimir Todos os Veículos de Carga
+            5. Imprimir Veículo de Passeio pela Placa
+            6. Imprimir Veículo de Carga pela Placa
+            7. Excluir Veículo de Passeio pela Placa
+            8. Excluir Veículo de Carga pela Placa
+            9. Sair do Sistema
+
+![ex07](ex07.jpg)
+
+
+  
+🕵️ Orientações adicionais:
+
+![ex01](ex01.jpg)
+
 
 ### 📽️ Click na imagem e assista ao vídeo de apresentação do Projeto..     
 
