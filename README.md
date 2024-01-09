@@ -221,7 +221,7 @@
 
 🕵️ Orientações adicionais:
 
-![ex07](ex07.jpg)
+![ex07a](ex07a.jpg)
 
 
 ### 📽️ Click na imagem e assista ao vídeo de apresentação do Projeto..     
